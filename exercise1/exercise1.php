@@ -6,7 +6,8 @@
             echo "<tr>";
                 for($j = 1; $j < 101; $j++)
                 {
-                    echo "<td>$i*$j</td>";
+                    $x = $i*$j
+                    echo "<td>$x</td>";
                 }
             echo "</tr>";
         }
