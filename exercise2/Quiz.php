@@ -4,49 +4,49 @@ $Q2 = $_POST["q2"];
 $Q3 = $_POST["q3"];
 $Q4 = $_POST["q4"];
 $Q5 = $_POST["q5"];
-$total = 0;
+$score = 0;
 
-echo "Question 1: What is 1+1?<br>";
+echo "Question 1: What is (25*2)/5?<br>";
 echo "You answered: " . $Q1 . "<br>";
-echo "Correct answer: 2<br><br>";
+echo "Correct answer: 10<br><br>";
 
-echo "Question 2: What is 4x2?<br>";
+echo "Question 2: What is 99-83?<br>";
 echo "You answered: " . $Q2 . "<br>";
-echo "Correct answer: 8<br><br>";
-
-echo "Question 3: What is 880/80?<br>";
-echo "You answered: " . $Q3 . "<br>";
-echo "Correct answer: 11<br><br>";
-
-echo "Question 4: What is 4x4?<br>";
-echo "You answered: " . $Q4 . "<br>";
 echo "Correct answer: 16<br><br>";
 
-echo "Question 5: What is (1+7)(5+3)?<br>";
+echo "Question 3:What is 54+89?<br>";
+echo "You answered: " . $Q3 . "<br>";
+echo "Correct answer: 143<br><br>";
+
+echo "Question 4: What is 36/4?<br>";
+echo "You answered: " . $Q4 . "<br>";
+echo "Correct answer: 9<br><br>";
+
+echo "Question 5: What is (10/2)*(2+7)?<br>";
 echo "You answered: " . $Q5 . "<br>";
-echo "Correct answer: 64<br><br>";
+echo "Correct answer: 45<br><br>";
 
-if($Q1 == 2)
+if($Q1 == 10)
 {
-  $total = $total +1;
+  $score = $score+1;
 }
-if($Q2 == 8)
+if($Q2 == 16)
 {
-  $total = $total +1;
+  $score = $score+1;
 }
-if($Q3 == 11)
+if($Q3 == 143)
 {
-  $total = $total +1;
+  $score = $score+1;
 }
-if($Q4 == 16)
+if($Q4 == 9)
 {
-  $total = $total +1;
+  $score = $score+1;
 }
-if($Q5 == 64)
+if($Q5 == 45)
 {
-  $total = $total +1;
+  $score = $score+1;
 }
 
-echo "Total correct: " . $total . "<br>";
-echo "Percent correct: " . ($total/5)*100 . "%";
+echo "Total correct: " . $score . "<br>";
+echo "Percent correct: " . ($score/5)*100 . "%";
  ?>
