@@ -1,0 +1,130 @@
+img
+{
+  width: 300px;
+  height: 300px;
+}
+
+table
+{
+  margin: auto;
+  text-align: center;
+}
+
+.buttons
+{
+  padding: 10pt 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 12px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.buttons:hover
+{
+   background-color: mediumblue;
+  border: dashed;
+  border-color: white;
+  color: white;
+  font-weight: bold;
+}
+
+
+h1
+{
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 60pt;
+  color: red;
+  }
+
+.textbox
+{
+  width: 100px;
+  height: 20px;
+}
+
+td
+{
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-style: oblique;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.selling
+{
+  text-decoration: underline;
+}
+
+p
+{
+  font-size: 25pt;
+  font-family: 'Arial';
+  text-decoration: underline;
+  color: black;
+}
+
+.ship
+{
+  font-size: 20pt;
+  font-family: "Arial", sans-serif;
+  font-weight: 200;
+}
+
+p.welcome
+{
+  font-style: oblique;
+  font-size: 30pt;
+  font-weight: 200;
+  text-decoration: none;
+  text-align: center;
+}
+
+p.info
+{
+  font-family: "Arial", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-style: oblique;
+}
+
+.box
+{
+  border-radius: 25px;
+  margin: auto; border: 3px solid deepskyblue;
+  box-sizing: content-box;
+  width: 1000px;
+  height: 390px;
+}
+
+table.receipt, tr.receipt, td.receipt, th.receipt
+{
+  border: 2px solid black;
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-style: oblique;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.receipt.number
+{
+  background-color: lightblue;
+}
+
+.receipt.text
+{
+  background-color: white;
+}
+
+.receipt.total
+{
+  background-color: green;
+  font-weight: bolder;
+}
+
