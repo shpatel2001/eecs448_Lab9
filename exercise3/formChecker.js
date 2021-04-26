@@ -11,7 +11,7 @@ function check()
   var User_Check = false;
   var Pass_Check = false;
 
-  //check quantity input
+ 
   if(Item1 == "" || Item2 == "" || Item2 == "" || Item1 < 0 || Item2 < 0 || Item3 < 0)
   {
     alert("Please selected a quantity for all items");
@@ -22,7 +22,7 @@ function check()
     Item_Check = true;
   }
 
-  //check email
+
   if(validate(User))
   {
     User_Check = true;
@@ -33,7 +33,7 @@ function check()
     User_Check = false;
   }
 
-  //check username
+  
   if(Pass == "")
   {
     alert("Please input your password");
@@ -44,7 +44,7 @@ function check()
     Pass_Check = true;
   }
 
-  //if all true, send to php
+
   if(Item_Check && User_Check && Pass_Check)
   {
     return(true);
@@ -55,7 +55,7 @@ function check()
   }
 }
 
-//checks valid email by a pattern
+
 function validate(Username)
 {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(Username)
