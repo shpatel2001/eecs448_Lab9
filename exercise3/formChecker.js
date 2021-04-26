@@ -7,45 +7,45 @@ function check()
   var User = document.getElementById("user").value;
   var Pass = document.getElementById("pass").value;
 
-  var Item_Check = false;
-  var User_Check = false;
-  var Pass_Check = false;
+  var itemCheck = false;
+  var userCheck = false;
+  var passCheck = false;
 
 
   if(Item1 == "" || Item2 == "" || Item2 == "" || Item1 < 0 || Item2 < 0 || Item3 < 0)
   {
     alert("Please selected a quantity for all items");
-    Item_Check = false;
+    itemCheck = false;
   }
   else
   {
-    Item_Check = true;
+    itemCheck = true;
   }
 
   
   if(validate(User))
   {
-    User_Check = true;
+    userCheck = true;
   }
   else
   {
     alert("Invalid email")
-    User_Check = false;
+    userCheck = false;
   }
 
   
   if(Pass == "")
   {
     alert("Please input your password");
-    Pass_Check = false;
+    passCheck = false;
   }
   else
   {
-    Pass_Check = true;
+    passCheck = true;
   }
 
   
-  if(Item_Check && User_Check && Pass_Check)
+  if(itemCheck && userCheck && passCheck)
   {
     return(true);
   }
