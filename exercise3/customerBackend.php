@@ -57,34 +57,34 @@ echo "<th class='receipt text'>Quantity</td>";
 echo "<th class='receipt text'>Cost Per Item</td>";
 echo "<th class='receipt text'>Sub Total</td></tr>";
 
-//Galaxy
+
 echo "<tr class='receipt'>";
 echo "<td class='receipt text'>Galaxy</td>";
 echo "<td class='receipt number'>" . $Galaxy . "</td>";
 echo "<td class='receipt number'>$1.50</td>";
 echo "<td class='receipt number'>$" . $Galaxy_Total . "</td></tr>";
 
-//mini m&m's
+
 echo "<tr class='receipt'>";
 echo "<td class='receipt text'>Mini M&M's</td>";
 echo "<td class='receipt number'>" . $Mini . "</td>";
 echo "<td class='receipt number'>$3.75</td>";
 echo "<td class='receipt number'>$" . $Mini_Total . "</td></tr>";
 
-//twix
+
 echo "<tr class='receipt'>";
 echo "<td class='receipt text'>Twix</td>";
 echo "<td class='receipt number'>" . $Twix . "</td>";
 echo "<td class='receipt number'>$1.59</td>";
 echo "<td class='receipt number'>$" . $Twix_Total . "</td></tr>";
 
-//Shipping
+
 echo "<tr class='receipt'>";
 echo "<td class='receipt text'>Shipping</td>";
 echo "<td colspan=2 class='receipt text'>" . $Shipping_Type . "</td>";
 echo "<td class='receipt number'>$" . $Shipping . "</td></tr>";
 
-//total cost
+/
 echo "<tr class='receipt'>";
 echo "<td colspan=3 class='receipt text'>Total Cost</td>";
 echo "<td class='receipt total'>$" . $Total_Cost . "</td></tr></table>";
